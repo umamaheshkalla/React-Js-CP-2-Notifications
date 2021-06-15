@@ -1,0 +1,77 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: bold;
+}
+.notification-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 25px;
+  width: 25px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #ffffff;
+  margin-top: 17px;
+  margin: 15px;
+}
+.info-container {
+  width: 60vw;
+  height: 47px;
+  background-color: #0b69ff;
+  display: flex;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.success-container {
+  width: 70vw;
+  height: 47px;
+  background-color: #2dca73;
+  display: flex;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.warning-container {
+  width: 70vw;
+  height: 47px;
+  background-color: #ffb800;
+  display: flex;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.error-container {
+  width: 70vw;
+  height: 47px;
+  background-color: #ff0b37;
+  display: flex;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 35px;
+    width: 45px;
+  }
+}
